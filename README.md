@@ -1,6 +1,5 @@
 <h3>EMPLOYEE CRUD OPERATION:</h3>
-
-     Create Employee CRUD operation and write Http based rest API's using java spring boot.
+     <p>Create Employee CRUD operation and write Http based rest API's using java spring boot.</p>
 
 <h4>HOW TO RUN THIS PROJECT?</h4>
 
