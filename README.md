@@ -46,13 +46,13 @@
 <li> Make sure department table is populated with the department you refer for in employee.</li>
 <li>While inserting employee detail through postman service: give a department id for department. </li>
 </ol>
-	Eg: {
-			"employeeID": 2,
-			"firstName": "Muthu",
-			"lastName": "vignesh",
-                        "mobileNumber": 9360162026,
-			"address": "madurai",
-			"department": 3
+	Eg: <br>{<br>
+			"employeeID": 2,<br>
+			"firstName": "Muthu",<br>
+			"lastName": "vignesh",<br>
+                        "mobileNumber": 9360162026,<br>
+			"address": "madurai",<br>
+			"department": 3<br>
 	     } 
     
 
