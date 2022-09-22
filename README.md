@@ -1,7 +1,10 @@
-#Employee Management System
+#EMPLOYEE CRUD OPERATION:
 
-#HOW TO RUN THIS PROJECT?#
-###FROM THE IDE:###
+     Create Employee CRUD operation and write Http based rest API's using java spring boot.
+
+#HOW TO RUN THIS PROJECT?
+
+<h3>FROM THE IDE:</h3>
 1. Open the project in an IDE like Eclipse.
 2. You can run the DBScript provided in MySQL to create database and tables with basic values. 
 	(Creating database is necessary since hibernate- update option is used : "spring.jpa.hibernate.ddl-auto = update")
@@ -41,8 +44,10 @@
 4. While inserting employee detail through postman service: give a department id for department. 
 	Eg: {
 			"employeeID": 2,
-			"firstName": "Tim",
-			"lastName": "Cook",
+			"firstName": "Muthu",
+			"lastName": "vignesh",
+                        "mobileNumber": 9360162026,
+			"address": "madurai",
 			"department": 3
 		} 
     
@@ -51,7 +56,7 @@
 1. Java
 2. Eclipse Neon 4.6.0
 3. MySQL Workbench
-4. Postman for Chrome: Version 4.10.5
+4. Postman for Chrome
 
 
 #DESIGN DISCUSSION#
