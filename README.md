@@ -19,22 +19,22 @@
 	<li>Accordingly select the request method and the url as follows:</li>
 </ol>
 	<h5>Department:</h5>
-		GET - "http://localhost:8080/departments" - gets list of all departments
-		GET - "http://localhost:8080/departments/{id}" - gets department with selected id
-		POST - "http://localhost:8080/departments" - inserts into department
-		PUT - "http://localhost:8080/departments/{id}" - updates departments with selected id
-		DELETE - "http://localhost:8080/departments" - deletes all departments
-		DELETE - "http://localhost:8080/departments/{id}" - deletes departments with selected id
-		PATCH - "http://localhost:8080/departments/{id}" - patches/updates departments with selected id
+		<li>GET - "http://localhost:8080/departments" - gets list of all departments
+		<li>GET - "http://localhost:8080/departments/{id}" - gets department with selected id
+		<li>POST - "http://localhost:8080/departments" - inserts into department
+		<li>PUT - "http://localhost:8080/departments/{id}" - updates departments with selected id
+		<li>DELETE - "http://localhost:8080/departments" - deletes all departments
+		<li>DELETE - "http://localhost:8080/departments/{id}" - deletes departments with selected id
+		<li>PATCH - "http://localhost:8080/departments/{id}" - patches/updates departments with selected id
 		
-	<h5>Employee: </h5>
-		GET - "http://localhost:8080/employees" - gets list of all employees
-		GET - "http://localhost:8080/employees/{id}" - gets employees with selected id
-		POST - "http://localhost:8080/employees" - inserts into employees
-		PUT - "http://localhost:8080/employees/{id}" - updates employees with selected id
-		DELETE - "http://localhost:8080/employees" - deletes all employees
-		DELETE - "http://localhost:8080/employees/{id}" - deletes employees with selected id
-		PATCH - "http://localhost:8080/employees/{id}" - patches/updates employees with selected id
+	<h5>Employee:</h5>
+		<li>GET - "http://localhost:8080/employees" - gets list of all employees
+		<li>GET - "http://localhost:8080/employees/{id}" - gets employees with selected id
+		<li>POST - "http://localhost:8080/employees" - inserts into employees
+		<li>PUT - "http://localhost:8080/employees/{id}" - updates employees with selected id
+		<li>DELETE - "http://localhost:8080/employees" - deletes all employees
+		<li>DELETE - "http://localhost:8080/employees/{id}" - deletes employees with selected id
+		<li>PATCH - "http://localhost:8080/employees/{id}" - patches/updates employees with selected id
 
 
 <h4>ASSUMPTIONS:</h4>
