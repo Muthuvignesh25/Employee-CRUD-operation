@@ -1,22 +1,23 @@
 <h3>EMPLOYEE CRUD OPERATION:</h3>
-     <p>Create Employee CRUD operation and write Http based rest API's using java spring boot.</p>
+    <li> <p>Create Employee CRUD operation and write Http based rest API's using java spring boot.</p></li>
 
 <h4>HOW TO RUN THIS PROJECT?</h4>
 
 <h4>FROM THE IDE:</h4>
-1. Open the project in an IDE like Eclipse.
-2. You can run the DBScript provided in MySQL to create database and tables with basic values. 
-	(Creating database is necessary since hibernate- update option is used : "spring.jpa.hibernate.ddl-auto = update")
-3. In case you do not want to run file, you can change the line "spring.jpa.hibernate.ddl-auto = update"  to  "spring.jpa.hibernate.ddl-auto = create-drop"
-	in src/main/resources/application.properties file.
-4. Check your database connection in src/main/resources/application.properties file and change if needed.
-5. Go to com.employee.management
-6. Right Click on class Application.
-7. Hit "Run As Java Application" in the IDE.
-8. Check if localhost server has started.
-9. Open Postman client service on Google chrome.
-10. Hit url : "http://localhost:8080/employees" and url : "http://localhost:8080/departments"
-11. Accordingly select the request method and the url as follows:
+<ol>
+<li>Open the project in an IDE like Eclipse.</li>
+<li>You can run the DBScript provided in MySQL to create database and tables with basic values. 
+	(Creating database is necessary since hibernate- update option is used : "spring.jpa.hibernate.ddl-auto = update")</li>
+<li>In case you do not want to run file, you can change the line "spring.jpa.hibernate.ddl-auto = update"  to  "spring.jpa.hibernate.ddl-auto = create-drop" in src/main/resources/application.properties file.</li>
+<li>Check your database connection in src/main/resources/application.properties file and change if needed.</li>
+<li> Go to com.employee.management</li>
+<li> Right Click on class Application.</li>
+<li> Hit "Run As Java Application" in the IDE.</li>
+<li>Check if localhost server has started.</li>
+<li>Open Postman client service on Google chrome.</li>
+<li>Hit url : "http://localhost:8080/employees" and url : "http://localhost:8080/departments"</li>
+	<li>Accordingly select the request method and the url as follows:</li>
+</ol>
 	<h5>Department:</h5>
 		GET - "http://localhost:8080/departments" - gets list of all departments
 		GET - "http://localhost:8080/departments/{id}" - gets department with selected id
@@ -37,10 +38,12 @@
 
 
 <h4>ASSUMPTIONS:</h4>
-1. DATABASE and TABLES are created in MySQL
-2. DepartmentID is a foreign key in Employee table.
-3. Make sure department table is populated with the department you refer for in employee.
-4. While inserting employee detail through postman service: give a department id for department. 
+<ol>
+<li>DATABASE and TABLES are created in MySQL</li>
+<li>DepartmentID is a foreign key in Employee table.</li>
+<li> Make sure department table is populated with the department you refer for in employee.</li>
+<li>While inserting employee detail through postman service: give a department id for department. </li>
+</ol>
 	Eg: {
 			"employeeID": 2,
 			"firstName": "Muthu",
@@ -52,19 +55,21 @@
     
 
 <h4>TECHNOLOGY STACK:</h4>
-1. Java
-2. Eclipse Neon 4.6.0
-3. MySQL Workbench
-4. Postman for Chrome
+<ol>
+<li>Java</li>
+<li>Eclipse Neon 4.6.0</li>
+<li>MySQL Workbench</li>
+<li>Postman for Chrome</li>
+</ol>
 
 
 <h4>DESIGN DISCUSSION:</h4>
-1. The employee table has a department id foreign key.
-2. Department table needs to have a value existing to be referred by the employee table.
-3. Get mapping will fetch the results, Post mapping will insert results, Put mapping and Patch mapping will update results, Delete mapping will delete results.
-4. You will need to create database if not, change in the application.properties file.
+<li>The employee table has a department id foreign key.</li>
+<li>Department table needs to have a value existing to be referred by the employee table.</li>
+<li> Get mapping will fetch the results, Post mapping will insert results, Put mapping and Patch mapping will update results, Delete mapping will delete results.</li>
+<li> You will need to create database if not, change in the application.properties file.</li>
 
 
 ### Ease of extending the program ###
-1. You can add useraccount table and assign username and password details for the employee.
-2. You can also create a system account who handles all the creation and deleting of employee and department.
+<li> You can add useraccount table and assign username and password details for the employee.</li>
+<li>You can also create a system account who handles all the creation and deleting of employee and department.</li>
