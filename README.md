@@ -1,10 +1,10 @@
-#EMPLOYEE CRUD OPERATION:
+<h3>EMPLOYEE CRUD OPERATION:</h3>
 
      Create Employee CRUD operation and write Http based rest API's using java spring boot.
 
-#HOW TO RUN THIS PROJECT?
+<h4>HOW TO RUN THIS PROJECT?</h4>
 
-<h3>FROM THE IDE:</h3>
+<h4>FROM THE IDE:</h4>
 1. Open the project in an IDE like Eclipse.
 2. You can run the DBScript provided in MySQL to create database and tables with basic values. 
 	(Creating database is necessary since hibernate- update option is used : "spring.jpa.hibernate.ddl-auto = update")
@@ -18,7 +18,7 @@
 9. Open Postman client service on Google chrome.
 10. Hit url : "http://localhost:8080/employees" and url : "http://localhost:8080/departments"
 11. Accordingly select the request method and the url as follows:
-	Department: 
+	<h5>Department:</h5>
 		GET - "http://localhost:8080/departments" - gets list of all departments
 		GET - "http://localhost:8080/departments/{id}" - gets department with selected id
 		POST - "http://localhost:8080/departments" - inserts into department
@@ -27,7 +27,7 @@
 		DELETE - "http://localhost:8080/departments/{id}" - deletes departments with selected id
 		PATCH - "http://localhost:8080/departments/{id}" - patches/updates departments with selected id
 		
-	Employee: 
+	<h5>Employee: </h5>
 		GET - "http://localhost:8080/employees" - gets list of all employees
 		GET - "http://localhost:8080/employees/{id}" - gets employees with selected id
 		POST - "http://localhost:8080/employees" - inserts into employees
@@ -37,7 +37,7 @@
 		PATCH - "http://localhost:8080/employees/{id}" - patches/updates employees with selected id
 
 
-#ASSUMPTIONS#
+<h4>ASSUMPTIONS:</h4>
 1. DATABASE and TABLES are created in MySQL
 2. DepartmentID is a foreign key in Employee table.
 3. Make sure department table is populated with the department you refer for in employee.
@@ -49,17 +49,17 @@
                         "mobileNumber": 9360162026,
 			"address": "madurai",
 			"department": 3
-		} 
+	     } 
     
 
-#TECHNOLOGY STACK#
+<h4>TECHNOLOGY STACK:</h4>
 1. Java
 2. Eclipse Neon 4.6.0
 3. MySQL Workbench
 4. Postman for Chrome
 
 
-#DESIGN DISCUSSION#
+<h4>DESIGN DISCUSSION:</h4>
 1. The employee table has a department id foreign key.
 2. Department table needs to have a value existing to be referred by the employee table.
 3. Get mapping will fetch the results, Post mapping will insert results, Put mapping and Patch mapping will update results, Delete mapping will delete results.
